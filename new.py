@@ -40,4 +40,5 @@ def largest_sum(payments):
                                                                                                                     print(largest)
 
 
-                                                                                                                    
+                                                                                                                    payments = [1, 2, 3, 4, 75, 6, 7, 8, 9, 2]
+                                                                                                                    print(largest_sum(payments))
