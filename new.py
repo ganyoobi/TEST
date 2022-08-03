@@ -11,4 +11,5 @@ def largest_sum(payments):
                                                                                     largest = new_largest
                                                                                                     consecutive5 = f"{payments[i + 1]} + {payments[i + 2]} + {payments[i + 3]} + {payments[i + 4]} + {payments[i + 5]}"
                                                                                                             print(consecutive5)
-                                                                                                            
+                                                                                                                    print(largest)
+                                                                                                                    
