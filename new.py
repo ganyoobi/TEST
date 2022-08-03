@@ -7,4 +7,6 @@ def largest_sum(payments):
                         if n > 5:
                                     for i in range(n - 5):
                                                     new_largest = payments[i + 1] + payments[i + 2] + payments[i + 3] + payments[i + 4] + payments[i + 5]
-                                                    
+                                                                if new_largest > largest:
+                                                                                    largest = new_largest
+                                                                                    
